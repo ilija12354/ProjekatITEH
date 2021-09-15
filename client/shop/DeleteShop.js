@@ -10,7 +10,7 @@ import DialogContentText from '@material-ui/core/DialogContentText'
 import DialogTitle from '@material-ui/core/DialogTitle'
 import auth from './../auth/auth-helper'
 import {remove} from './api-shop.js'
-
+//brisanje prodavnice
 export default function DeleteShop(props) {
   const [open, setOpen] = useState(false)
   

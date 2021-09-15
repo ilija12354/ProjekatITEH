@@ -93,7 +93,7 @@ export default function Shop({match}) {
     }
 
   }, [match.params.shopId])
-
+//preko apija dodate komponente
     const logoUrl = shop._id
           ? `/api/shops/logo/${shop._id}?${new Date().getTime()}`
           : '/api/shops/defaultphoto'
