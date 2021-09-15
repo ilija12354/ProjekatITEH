@@ -41,7 +41,7 @@ export default function AddToCart(props) {
         </IconButton>}
       </span>)
 }
-
+ 
 AddToCart.propTypes = {
   item: PropTypes.object.isRequired,
   cartStyle: PropTypes.string
